@@ -1,0 +1,50 @@
+:root{
+  --spacing: 1em;
+  --colour-primary: rgb(85, 100, 150);
+  --colour-secondary: rgb(247, 235, 236);
+  --colour-accent: rgb(255, 102, 102);
+}
+
+body{
+  background-color: var(--colour-secondary);
+  color: var(--colour-secondary);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+  color: var(--colour-accent);
+}
+
+.centerHorizontally{
+  display: flex;
+  flex-flow: column wrap;
+
+  .centerVertically{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.ressource{
+  padding: var(--spacing);
+
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: var(--spacing);
+
+  margin-top: var(--spacing);
+  background-color: var(--colour-primary);
+  width:  65%;
+  max-width: 800px;
+
+  border-radius: 5px;
+}
+
+
+
+.ressourceLogo{
+  width: 2em;
+}
