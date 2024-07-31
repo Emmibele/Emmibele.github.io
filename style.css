@@ -1,8 +1,8 @@
 :root{
   --spacing: 1em;
-  --colour-primary: rgb(85, 100, 150);
-  --colour-secondary: rgb(247, 235, 236);
-  --colour-accent: rgb(255, 102, 102);
+  --colour-primary: rgb(141, 90, 151);
+  --colour-secondary: rgb(250, 250, 250);
+  --colour-accent: rgb(44, 48, 46);
 }
 
 body{
