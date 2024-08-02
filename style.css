@@ -3,10 +3,10 @@
   --colour-primary: rgb(141, 90, 151);
   --colour-secondary: rgb(250, 250, 250);
   --colour-accent: rgb(44, 48, 46);
+  background-color: var(--colour-secondary);
 }
 
 body{
-  background-color: var(--colour-secondary);
   color: var(--colour-secondary);
   font-family: 'Courier New', Courier, monospace;
 }
